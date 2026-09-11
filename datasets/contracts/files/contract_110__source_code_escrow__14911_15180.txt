@@ -1,0 +1,1 @@
+Upon Acceptance as provided in Clause 9.2 HealthGate shall deliver             into escrow the source code, source listings and information for the             Proprietary Software included in the System in accordance with the             terms of the Escrow Agreement.

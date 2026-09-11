@@ -1,0 +1,3 @@
+The minimum values of quality that the Crude delivered by the Senders must have to be accepted for Transportation in the Pipeline are:
+
+   For specific systems the Transporter defines minimum parameters for quality which are listed in Annex 4 Minimum Quality Specifications by  System.

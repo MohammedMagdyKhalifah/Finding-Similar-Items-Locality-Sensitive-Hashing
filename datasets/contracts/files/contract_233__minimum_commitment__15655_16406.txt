@@ -1,0 +1,5 @@
+Subject to the provisions of Section 5 of this Agreement, if the volume of each Product shipped by Shipper on the Pipeline during the Quarter is less than the applicable Quarterly Volume Commitment for that Product then, in addition to paying any amounts incurred by Shipper pursuant to Section 3.4 with respect to Shipper Deliveries for such Quarter, Shipper shall also pay MPL a deficiency payment (the "Quarterly Deficiency Payment"); equal to the product of:
+
+(a) the difference between the applicable Quarterly Volume Commitment for that Product for such Quarter and the volume of Shipper Deliveries of that Product on the Pipeline for such Quarter (the "Deficiency Volume"); and
+
+(b) the applicable Tariff Rate for that Product for such Quarter.

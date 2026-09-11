@@ -1,0 +1,11 @@
+Minimum transportation rate acceptable to Releasing Shipper (if          none, write "none"; includes commodity component):
+
+         Tariff Rate
+
+         (ii) Bid Requirements:
+
+              (a) _X_ Reservation, __Volumetric
+
+                  or ___ Volumetric with ___ volume commitment
+
+              (b) __ Dollar/Cents or __ Percentage

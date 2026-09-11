@@ -1,0 +1,1 @@
+If Reseller fails to submit Orders with an aggregate value equal to or greater than the MOQ, then Reseller shall pay Supplier a sum equal to the shortfall, within 30 days after the end of the Initial Term.

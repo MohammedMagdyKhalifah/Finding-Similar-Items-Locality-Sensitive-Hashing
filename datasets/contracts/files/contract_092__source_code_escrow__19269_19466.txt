@@ -1,0 +1,1 @@
+The Source Code on each AS400 shall be the most current version of all Codes for all corrections, bug fixes, Improvements and new releases of the Software which are licensed by Sparkling hereunder.

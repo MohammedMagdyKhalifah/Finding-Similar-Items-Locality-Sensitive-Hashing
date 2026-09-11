@@ -1,0 +1,5 @@
+If Net Sales of the applicable Product in a country in a Calendar Quarter following the Launch Quarter for such country are:
+
+A. lower than or equal to [***]%, but more than [***]%, of Base Net Sales of the applicable Product in such country, then the Applicable Reduction Percentage shall be [***]%; or
+
+B. lower than or equal to [***]% of Base Net Sales of the applicable Product in such country, then the Applicable Reduction Percentage shall be [***]%.

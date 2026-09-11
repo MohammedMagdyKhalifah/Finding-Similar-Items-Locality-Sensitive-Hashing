@@ -1,0 +1,1 @@
+If the aggregate actual number of Details for the Product made by the Sales Representatives for a Calendar Quarter is less than the Quarterly Minimum Details for such Calendar Quarter, then in calculating the promotion fee due under Section 6.1.1, the Applicable Percentage for such Calendar Quarter shall be reduced to a new percentage equal to [***].

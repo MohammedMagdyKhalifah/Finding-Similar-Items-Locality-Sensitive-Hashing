@@ -1,0 +1,1 @@
+IBM shall have the option to monitor, inspect, audit and take other necessary actions in order to comply with IBM's requirements to MS regarding any of MS's Code, or documentation, used hereunder.

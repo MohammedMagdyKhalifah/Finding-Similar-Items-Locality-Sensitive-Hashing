@@ -1,0 +1,1 @@
+Each Station will provide Network with up to 5.0 mbps, but, at all times, not less than 2.0 mbps, for this purpose, except as required in infrequent and exceptional circumstances resulting from a Station's carriage of the primary television network with which such Station is affiliated with regard to its Primary Feed (e.g., ABC, CBS, NBC and Fox)

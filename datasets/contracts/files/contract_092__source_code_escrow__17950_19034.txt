@@ -1,0 +1,11 @@
+Immediately upon execution of this Agreement, Garman shall maintain on each AS400 at an Authorized Location the most current version of:
+
+            (1)   all source code for the Software in machine readable form,                   with user option to print;
+
+            (2)   all program and user documentation in machine readable and                   printed form;
+
+            (3)   all tools such as compilers, assemblers, linkers and editors                   required to make the source code into the functional Software                   operating in accordance with the Specifications as amended                   from time to time;
+
+            (4)   a complete explanation of any procedures that are not standard                   practice, required to create from the source code the                   functional Software; (5) all documentation listing program and                   module inputs and their sources, outputs and their                   destinations, and any other relevant program and module                   documentation,
+
+(collectively, the "Codes").

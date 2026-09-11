@@ -1,0 +1,7 @@
+Corio shall notify Changepoint in writing if it believes that          one of the following events (the "RELEASE CONDITIONS") has occurred and          that it intends to seek release of the Source Code from the escrow          account: (i) Changepoint's dissolution or ceasing to do business in the          normal course, except as a result or a merger, amalgamation or sale of          all or a substantial part of the assets of Changepoint, or (ii)          Changepoint's repeated and material breach of Changepoint's Software          Support and Maintenance obligations defined under Section 5 of this          Agreement and EXHIBIT C pertaining to the correction of programming
+
+
+
+
+
+         errors and such breach is not cured within sixty (60) days of receipt          of written notice thereof from Corio.

@@ -1,0 +1,9 @@
+If the BSP gives such a notice of termination, then:
+
+  (a) if the change of control:
+
+  (i) results in a competitor of the BSP controlling Datec or
+
+  (ii) is reasonably likely in the BSP's opinion, to have a detrimental effect on Datec's ability to provide the Services in accordance with the agreement,
+
+then the BSP will pay Datec according to Section 14 - "Termination" of this agreement and the Termination Table in Schedule C.

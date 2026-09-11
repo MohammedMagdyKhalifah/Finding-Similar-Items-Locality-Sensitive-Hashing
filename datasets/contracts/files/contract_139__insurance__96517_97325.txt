@@ -1,0 +1,7 @@
+The Commercial General Liability insurance policy must:
+
+1. include AT&T, its Affiliates, and their directors, officers, and employees as additional insureds. Vendor shall provide a copy of the additional insured endorsement to AT&T. The additional insured endorsement may either be specific to AT&T or may be "blanket" or "automatic" addressing any Person as required by contract. A copy of the additional insured endorsement must be provided within sixty (60) days of execution of this Agreement and within sixty (60) days of each Commercial General Liability policy renewal;
+
+2. include a waiver of subrogation in favor of AT&T, its Affiliates, and their directors, officers and employees; and
+
+3. be primary and non-contributory with respect to any insurance or self-insurance that is maintained by AT&T.

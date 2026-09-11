@@ -1,0 +1,3 @@
+Except as otherwise expressly provided under this Agreement, Customer shall have no right, and Customer specifically agrees not to:
+
+(i) transfer, assign or sublicense its license rights to any other person or entity, or use the Software on unauthorized or secondhand Cisco equipment, and Customer acknowledges that any attempted transfer, assignment, sublicense or use shall be void;

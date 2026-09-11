@@ -1,0 +1,7 @@
+Supplier's recovery objectives shall not exceed the following during any recovery period:
+
+ A. Time to Full Restoration from time of disruption event: 4 hours
+
+ B. Maximum Data Loss (stated in hours) from time of disruption event: 24 hours
+
+ C. Percentage Reduction of Service levels: 50% during the 24 hour recovery period

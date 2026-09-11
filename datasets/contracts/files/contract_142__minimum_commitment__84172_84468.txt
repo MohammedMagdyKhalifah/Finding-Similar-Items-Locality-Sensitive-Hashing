@@ -1,0 +1,1 @@
+The Sender shall notify the Transporter as soon as possible, if it is found that: (i) its deliveries during a month of Operation at a Point of  Entrance will be less than 95% of the Scheduled Capacity or (ii) its withdrawals at any Point of Exit shall be less than 95% of the Scheduled  Capacity.

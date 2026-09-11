@@ -1,0 +1,1 @@
+For example, if the Customer chose to terminate for convenience on an agreement with a Commencement Date of January 01, 2007 and provided written notice on July 15, 2009 for a termination date of January 15, 2010, the Estimated Remaining Value would be the average monthly fee during 2009 multiplied by 47 and the Termination Fee would be the Estimated Remaining Value.

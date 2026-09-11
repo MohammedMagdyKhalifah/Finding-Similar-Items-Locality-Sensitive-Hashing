@@ -1,0 +1,5 @@
+On the third Business Day immediately preceding the Remarketing Settlement Date (the "Remarketing Date"), the Remarketing Agent shall use  its commercially reasonable efforts to remarket the Remarketing Securities, at a price at least equal to:
+
+(i) 100% of the aggregate Accreted Value thereof as of the end of the day on the day next preceding the Remarketing Settlement Date; or
+
+(ii) on the Maturity Remarketing Date, 100% of the stated liquidation amount of the Preferred Securities or the principal amount at maturity of  the Debentures, as the case may be.

@@ -1,0 +1,1 @@
+Should the price of fuel delivered to the Lima Project be above the Price Basis, the commission will be reduced on a sliding scale according to the following formula:    C= BC+(PB-PI)*0.1094    Where:    C = commission  BC = Base Commission  PI = price invoiced per MMBTU  PB = Price Basis per MMBTU

@@ -1,0 +1,5 @@
+Equifax hereby grants, and will cause the other members of the Equifax Group to grant, to Certegy a fully paid, non-exclusive, perpetual, worldwide, non-transferable license to use, modify, copy, improve, create Derivative Works and Certegy Enhancements from, and sublicense the Licensed Equifax Materials (excluding the Utility Software Programs) solely for use in the Certegy Business and as that business may evolve and change in the future, subject to the following:
+
+          (i)   Certegy shall not sublicense, or otherwise disclose or                 distribute, or permit any Person to use, the Licensed Equifax                 Materials (excluding the Utility Software Programs), except in                 accordance with Section 4.1(b);
+
+          (ii)  Certegy shall hold the Licensed Equifax Materials (excluding the                 Utility Software Programs) in strict confidence; will not remove                 or destroy any proprietary markings of the Equifax Group on or                 contained in the Licensed Equifax Materials (excluding the                 Utility

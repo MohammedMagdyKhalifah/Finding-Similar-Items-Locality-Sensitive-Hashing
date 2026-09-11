@@ -1,0 +1,5 @@
+PAYMENT  YEAR
+
+MINIMUM PAYMENT    ACCESS FEE    SECOND COMPONENT
+
+Year 1    $400,000    $300,000    $100,000    Year 2    $700,000    $300,000    $400,000    Year 3    $1,100,000    $300,000    $800,000    Year 4    $1,600,000    $300,000    $1,300,000    Year 5    $2,100,000    $300,000    $1,800,000

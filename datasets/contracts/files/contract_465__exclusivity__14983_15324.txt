@@ -1,0 +1,1 @@
+The Insurance Center shall be hosted solely by ebix and contained in an About Wrapper and ebix shall, during the Term, provide site maintenance services relative to the Insurance Center substantially as provided for the ebix Site from time to time, subject to the uptime requirements as set forth in Section 13.4  [TERMINATION AND SURVIVAL].

@@ -1,0 +1,31 @@
+{
+  "n": 5556,
+  "all_pairs": 15431790,
+  "shingling_seconds": 0.04791158300940879,
+  "methods": {
+    "brute": {
+      "seconds": 14.546424125001067,
+      "index_seconds": 0,
+      "verify_seconds": 14.49842754099518,
+      "comparisons": 15431790,
+      "count": 1160
+    },
+    "lsh": {
+      "seconds": 5.58197533301427,
+      "index_seconds": 5.5271084170090035,
+      "verify_seconds": 0.006953000003704801,
+      "comparisons": 1956,
+      "count": 1160
+    }
+  },
+  "config": {
+    "k": 5,
+    "bands": 20,
+    "rows": 5,
+    "threshold": 0.8
+  },
+  "missed": 0,
+  "recall": 1.0,
+  "speedup": 2.6059635267406294,
+  "note": "One measured local run at k=5, b=20, r=5, threshold=0.8. This file documents validation; the UI never reads it or uses preset timings."
+}

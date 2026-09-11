@@ -1,0 +1,1 @@
+n case of an order volume equal or less than [* * *]: The first [* * *] of each short term rolling forecast shall be binding firm purchase orders by Customer (each a "Purchase Order") and the last [* * *] of each short term rolling forecast shall be non-binding, good faith estimates.

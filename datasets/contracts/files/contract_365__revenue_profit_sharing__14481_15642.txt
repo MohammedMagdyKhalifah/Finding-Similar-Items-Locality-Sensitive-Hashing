@@ -1,0 +1,13 @@
+The Actual Revenues of the parties arising from the Baidu promotion services in the search results pages shall be dividedproportionately, and Party A shall bear the taxes payable on its own share of revenues:
+
+  (1) The address bar, search bar, homepage/blank page of Cheetah Browser shall use Baidu Search as default search engineservice;
+
+  (2) The default traffic shall mean the default traffic of the website address site and the traffic of the Cheetah Browser;
+
+  (3) The monthly average daily non-default traffic shall not exceed the default traffic. If it does, then the traffic in excess willnot form part of the basis for calculating the share of revenues;
+
+  (4) If the default traffic is lower than ***, the share of revenues for the non-default traffic is ***%, and the share of revenuesfor the default traffic is ***%;
+
+  (5) If the default traffic is more than ***, the share of revenues for the non-default traffic is ***%, and the share of revenuesfor the default traffic is ***%;
+
+  (6) If the default traffic is more than ***, the share of revenues for the non-default traffic is ***%, and the share of revenuesfor the default traffic is ***%;

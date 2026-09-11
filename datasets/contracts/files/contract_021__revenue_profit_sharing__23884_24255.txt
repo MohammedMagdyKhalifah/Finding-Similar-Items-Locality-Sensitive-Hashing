@@ -1,0 +1,5 @@
+Cumulative annual HH & ALD  Volume that use the Framework
+
+Ezairo Maximum Royalty Rate    SCHA Maximum Royalty Rate
+
+Less Than 20,000 Units    10%    8%    20,000-50,000 units    9%    7%    50,000-100,000 units    8%    6%    100,000-200,000 units    7%    5%    200,000-500,000 units    6%    4%    500,000 to 1,000,000 units    5%    3%    Over 1,000,000    5%    1.5%

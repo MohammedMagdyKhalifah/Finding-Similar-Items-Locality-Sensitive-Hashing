@@ -1,0 +1,1 @@
+The quantity of Products, sample Products or Trainers (as the case may be) ordered by AMAG from Antares in each shipment (as set forth in a Purchase Order) must be equal to or greater than [***] units for each type of Product, sample Product and Trainers ordered. Such minimum order quantity may be updated from time to time by a mutual written agreement of the Parties.

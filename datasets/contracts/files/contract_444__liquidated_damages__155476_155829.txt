@@ -1,0 +1,1 @@
+For any calendar month, if MSL fails to achieve a responsiveness, as             defined in Appendix 3, of at least [*]% for any machine type, in a             Work Center, a penalty of [*]% will be applied to that Work Center's             monthly total material cost of that machine type multiplied by             ([*]% minus actual responsiveness %).

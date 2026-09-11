@@ -1,0 +1,1 @@
+Throughput of all data being served directly to the end user shall be           sustained at least 50Kbits/sec as measured by Excite@Home's monitoring           stations in at least 80% of all monitored cases.

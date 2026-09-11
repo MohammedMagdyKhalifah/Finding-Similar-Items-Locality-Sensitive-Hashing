@@ -1,0 +1,1 @@
+In the event Transporter is unable to maintain the minimum pressure(s) described herein but Shipper is still able to take receipt of the scheduled quantity at the Primary Delivery Point(s) described above, then Shipper shall be considered unharmed by Transporter's inability to maintain such minimum pressure(s).

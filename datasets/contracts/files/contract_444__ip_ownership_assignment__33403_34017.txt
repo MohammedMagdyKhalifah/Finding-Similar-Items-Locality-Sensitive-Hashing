@@ -1,0 +1,3 @@
+IBM assumes and will assume ownership and MSL assigns and will assign all       intellectual and industrial property rights for hardware, software, design       and documentation of all Products delivered under this Agreement
+
+      IBM will also own and MSL will assign any invention made by MSL on       Products, and on any invention related to IBM processes and systems that       MSL makes while MSL uses those processes and systems in the performance of       this Agreement provided that nothing herein shall restrict MSL's right to       use such inventions in the performance of its obligations hereunder.

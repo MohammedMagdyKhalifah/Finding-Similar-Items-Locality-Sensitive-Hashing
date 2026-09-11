@@ -1,0 +1,1 @@
+If the final production quantity for any accepted PO is less than [***] of the PO quantity ordered, or if the quantity of production released for shipment within [***] from the last day of production is less than [***] of the PO quantity, upon request by Premier, Heritage shall take all commercially reasonable steps to produce or replace the shortfall within [***].

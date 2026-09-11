@@ -1,0 +1,13 @@
+AT&T and its auditors (including internal audit staff and external auditors) and governmental authorities shall have the right to review such records ("AT&T Audits") held and created by Vendor, to verify the following:
+
+(i) the accuracy of Vendor's invoices and AT&T's payment obligations hereunder;
+
+(ii) that the Work charged for was actually performed;
+
+(iii) that the Services have been and are being provided in accordance with this Agreement;
+
+(iv) the integrity of Vendor's systems that process, store, support, maintain, and transmit AT&T data;
+
+(v) Vendor's records relating to the performance of Vendor's Subcontractors with respect to any portion of the Services; and
+
+(vi) that Vendor and its Subcontractors are complying with Section 3.6 hereof.

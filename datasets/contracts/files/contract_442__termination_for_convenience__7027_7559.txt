@@ -1,0 +1,5 @@
+Customer may terminate this Agreement (including all Service Option Attachments) or any Service Option Attachment (with the exception of any Service Option Attachment that is a prerequisite for the provision of Services under a non-terminated Service Option Attachment) for convenience at the end of any calendar month by:
+
+a.    providing at least one month's prior written notice to IBM; and
+
+b.    paying the applicable early termination charges, if any, specified in       Attachment A and applicable Service Option Attachments.

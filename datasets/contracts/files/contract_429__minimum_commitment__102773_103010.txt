@@ -1,0 +1,1 @@
+The minimum of three offers per category must remain fresh;         if more than one week has elapsed without new offers being available         then a status message indicating no new offers in the category selected         will appear.

@@ -1,0 +1,5 @@
+If IGER receives an exclusive license from Defra rather  than an assignment of rights, the following will apply.
+
+18.1 To the extent the license grant to CERES on IGER BACKGROUND INTELLECTUAL PROPERTY in Article 5.3.2 relates to IGER  BACKGROUND INTELLECTUAL PROPERTY that constitutes Intellectual Property to which rights vest in Defra or the Crown or the Secretary  of State, the word "license" will be read as "sublicense" and all other terms of such Article will remain unchanged.
+
+18.2 To the extent that IGER INTELLECTUAL PROPERTY or JOINT INTELLECTUAL PROPERTY created in a RESEARCH PROJECT  constitutes or includes Intellectual Property to which rights vest in Defra or the Crown or the Secretary of State, any conveyance or grant of  rights or licenses by IGER to CERES in this Agreement with respect to such IGER INTELLECTUAL PROPERTY or JOINT INTELLECTUAL  PROPERTY, will be read as the grant of an exclusive sublicense under IGER's exclusive license from Defra.

@@ -1,0 +1,7 @@
+D2 shall promptly correct any
+
+Software License                                           D2 Technologies, Inc. and Maintenance Agreement       August 4, 1997                      CONFIDENTIAL
+
+12
+
+errors in the Licensed Technology, or failures of the Licensed Technology according to the terms of Article 6 of this Agreement. D2's warranty and error correction obligations with respect to any portion of the Licensed Technology shall extend for a period (the "Warranty period") of one year commencing on acceptance of such portion of the Licensed Technology by LICENSEE.

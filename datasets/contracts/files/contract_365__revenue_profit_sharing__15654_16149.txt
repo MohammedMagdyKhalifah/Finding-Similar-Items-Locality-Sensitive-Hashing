@@ -1,0 +1,5 @@
+(7) If the default traffic is more than ***, the share of revenues for the non-default traffic is ***%, and the share of revenuesfor the default traffic is ***%;
+
+  (8) If the default traffic is more than ***, the share of revenues for the non-default traffic is ***%, and the share of revenuesfor the default traffic is ***%; and
+
+  (9) If the default traffic is more than ***, the share of revenues for the non-default traffic is ***%, and the share of revenuesfor the default traffic is ***%.

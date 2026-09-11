@@ -1,0 +1,7 @@
+On a country-by-country and Product-by-Product basis, if at any time during the Royalty Term with respect to such country and such Product there is one or more Generic Product(s) with respect to such Product being sold for [***]) consecutive Calendar Quarters, then [***] for such country and such Product, the royalty rate for such Product shall be reduced, after giving effect to any reduction applicable to such Product in such country pursuant to [***], on a Calendar Quarter basis as follows:
+
+(i) if the cumulative Net Sales of such Product in such country during such Calendar Quarter are equal to or less than [***] percent ([***]%), but are greater than [***] percent ([***]%), of the Baseline Quarter Net Sales, then the royalty rate will be reduced for such Calendar Quarter by [***] percent ([***]%); and
+
+(ii) if the cumulative Net Sales of such Product in such country during such Calendar Quarter are less than [***] percent ([***]%) of the Baseline Quarter Net Sales of the Baseline Quarter Net Sales, then the royalty rate for such Calendar Quarter will be reduced by [***] percent ([***]%).
+
+provided, that, for clarity, on a country-by-country and Product-by-Product basis, there will be no royalty rate reduction with respect to a given country and Product pursuant to this Section 7.3.2(c) with respect to the initial [***] ([***]) consecutive Calendar Quarter periods during which Generic Product entry with respect to such Product and such country is being established.

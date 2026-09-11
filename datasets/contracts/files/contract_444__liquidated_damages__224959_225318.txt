@@ -1,0 +1,1 @@
+In the case where any specific Product, shipped to IBM from MSL within any       [*] month experiences a defect rate of [*]% or greater, resulting from a       common cause due to MSL's non-conformance to specifications, drawings,       other descriptions furnished or adopted by IBM, or due to workmanship, MSL       will accept the cost of a Product Recall.

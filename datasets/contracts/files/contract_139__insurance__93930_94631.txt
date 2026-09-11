@@ -1,0 +1,9 @@
+The Parties agree that:
+
+(i) the failure of AT&T to request such certificate of insurance or failure of AT&T to identify a deficiency will not be construed as a waiver of Vendor's obligation to maintain the insurance required under this Agreement;
+
+(ii) the insurance required under this Agreement does not represent that coverage and limits will necessarily be adequate to protect Vendor, nor shall it be deemed as a limitation on Vendor's liability to AT&T in this Agreement;
+
+(iii) Vendor may meet the required insurance coverages and limits below with any combination of primary and Umbrella/Excess liability insurance; and
+
+(iv) Vendor is responsible for any deductible or self-insured retention.

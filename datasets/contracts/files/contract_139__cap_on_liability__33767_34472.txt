@@ -1,0 +1,3 @@
+AT&T may elect to, after consultation with Vendor and good faith discussion to negotiate another resolution:
+
+(i) terminate its obligations solely with respect to each Cell Site affected by or related to such Permitting Delay under this Agreement and exercise any of the Termination Remedies set forth in the Build Addendum, without liability to Vendor; provided that AT&T shall pay to Vendor, an amount equal to the demonstrated costs incurred by Vendor for any Work completed (in accordance with applicable Specifications and requirements) to the extent such Work is transferred to AT&T as of the effective time of termination of the applicable terminated Cell Site, which amount shall not exceed $[***]

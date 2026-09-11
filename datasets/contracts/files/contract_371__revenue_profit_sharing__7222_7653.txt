@@ -1,0 +1,5 @@
+Option to convert annual royalties to TDA common stock at a $10 of             stock for every $1 of Royalty converted.
+
+            a.    TDA stock conversion price based on the previous six month                   average daily price
+
+            b.    Option is limited to 50% of TDA outstanding stock and if the                   option is exercised, it must be exercised when the agreement     &sbsp;             is in effect.

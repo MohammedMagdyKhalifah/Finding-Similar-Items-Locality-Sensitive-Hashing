@@ -1,0 +1,1 @@
+"Termination Fee" shall mean an amount equal to the average Service Fees per day over the 180 day period immediately preceding the date written notice of termination is provided pursuant to Section 8.01(d) and (e) multiplied by number of days by which the Notice Period will be less than 180.

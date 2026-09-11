@@ -1,0 +1,13 @@
+The Material shall be supplied with details of the following:
+
+      1     Details of the deposit: full name and version details, number of             media items, media type and density, file or archive format, list or             retrieval commands, archive hardware and operating system details.
+
+      2     Name and functionality of each module/application of the Material.
+
+      3     Names and versions of development tools etc.
+
+      4     Documentation describing the procedures for building / compiling /             executing / using the software (technical notes, user guides).
+
+      5     Hardcopy directory listings of the contents of the media.
+
+      6     Name and contact details of employee(s) with knowledge of how to             maintain and support the Material.

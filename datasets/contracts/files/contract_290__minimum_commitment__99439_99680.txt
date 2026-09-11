@@ -1,0 +1,5 @@
+Sample One-Year Minimum Power Product Example Calculation 2014 Assumptions Number of active Systems 150 Nameplate capacity 200kW One-Year Power Performance Warranty 95%
+
+One-Year Minimum Power Product Analysis
+
+Minimum Power Product 28,500kW

@@ -1,0 +1,1 @@
+If a Release Condition has occurred, Bank of America may immediately release the Source Code for the purposes described in Section 8.8, following the issuance of a written statement to Supplier by Bank of America's executive management, stating that a Release Condition has occurred.

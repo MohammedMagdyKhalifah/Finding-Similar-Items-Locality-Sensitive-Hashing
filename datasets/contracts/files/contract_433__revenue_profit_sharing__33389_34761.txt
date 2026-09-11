@@ -1,0 +1,9 @@
+Payments from Licensee to Fox: In consideration of the rights granted to Licensee pursuant to this Agreement, Licensee shall pay to Fox, or such other party as Fox may designate in writing, a royalty in the following amounts:
+
+(i) Major Releases:
+
+(A) Until such time as ***** percent (*****%) of an Individual Property Guarantee for a Major Release is recouped by Licensee, Fox shall earn, and credit against the Individual Property Guarantees, Royalties at the rate of ***** percent (*****%) of Licensee's Gross Receipts from Licensee's sale, license, distribution or other exploitation of the Wireless Products derived from the respective Major Release; and
+
+(B) Thereafter and until such time as ***** percent (*****%) of an Individual Property Guarantee for a Major Release is recouped by Licensee, Fox shall earn and Licensee shall pay to Fox Royalties at the rate of ***** percent (*****%) of Licensee's Gross Receipts from Licensee's sale, license, distribution or other exploitation of the Wireless Products derived from the respective Major Release; and
+
+(C) Thereafter (and for the remainder of the Term), Fox shall earn and Licensee shall pay to Fox Royalties at the rate of ***** percent (*****%) of Licensee's Gross Receipts from Licensee's sale, license, distribution or other exploitation of the Wireless Products derived from the respective Major Release.

@@ -1,0 +1,5 @@
+If the game package only includes multiple console games:
+
+Based on the amount of downloads of the console games, the sharing percentage among all CSPs in the package shall be calculated as follows:
+
+Total income of game package * (1 - bad debt rate) * (1 - sharing percentage for fee collection channel) *50% * (number of downloads of such CSP's online game/aggregate number of downloads of all console games contained in the game package)

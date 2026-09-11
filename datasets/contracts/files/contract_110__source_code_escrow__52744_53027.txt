@@ -1,0 +1,1 @@
+If no new version has been deposited in any 6 month period,             HealthGate will deposit a replacement copy of the then current             version of the source code of the Proprietary Software under the             Escrow Agreement and will notify the Publishers in writing.

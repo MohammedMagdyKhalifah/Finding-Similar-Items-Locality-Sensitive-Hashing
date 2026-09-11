@@ -1,0 +1,1 @@
+Until a Release Condition (as defined in Section 8.6) occurs and the conditions of Section 8.7 have been satisfied, Bank of America shall not permit access to or use of the Source Code, except as expressly provided herein.
