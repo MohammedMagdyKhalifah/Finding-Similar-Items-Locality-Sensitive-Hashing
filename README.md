@@ -39,7 +39,7 @@ Run the automated test suite to confirm Python, the algorithms, and the bundled 
 ```sh
 python3 -m unittest discover -s tests -v
 ```
-You should see 16 tests, all `ok`, ending in `OK`. This checks MinHash/LSH correctness against brute force, plus provenance and integrity of the three real datasets described below.
+You should see 18 tests, all `ok`, ending in `OK`. This checks MinHash/LSH correctness against brute force, plus provenance and integrity of the three real datasets described below.
 
 ## Troubleshooting
 
@@ -53,7 +53,7 @@ You should see 16 tests, all `ok`, ending in `OK`. This checks MinHash/LSH corre
 
 Open the running app in your browser and you'll find:
 
-- An interactive, step-by-step walkthrough of shingling, MinHash and LSH (play or manually advance the animations).
+- An interactive, eight-step walkthrough using two original CUAD sponsorship clauses throughout. All counts, minima, signatures and bands are computed from the source excerpts. Their exact five-character Jaccard is 407 / 444 = 91.67%. Play or manually advance the animations.
 - A "Real file lab" where you pick a document collection, set parameters (shingle size `k`, bands `b`, rows per band `r`, similarity threshold), and click **Run experiment** to compare brute-force and LSH side by side, with live progress and measured timings.
 - The ability to upload your own UTF-8 `.txt`/`.md`/`.csv`/`.log` files (up to 6,000 files / 11 MB) instead of a bundled dataset.
 - Downloadable results: matching pairs as CSV, or the full document collection as a ZIP with provenance metadata.
@@ -72,7 +72,7 @@ All three datasets below are **already generated and committed to this repositor
 - Citation: Hendrycks, D., Burns, C., Chen, A. & Ball, S. (2021). *CUAD: An Expert-Annotated NLP Dataset for Legal Contract Review*. NeurIPS. The Atticus Project.
 - License: CC BY 4.0
 
-Each file is a real, unedited excerpt (180–1,600 characters) of a clause from a commercial contract, in one of 18 substantive categories (liability caps, anti-assignment, exclusivity, termination, etc.). By default the app compares clauses across *different* source contracts only, at a 90%+ threshold excluding exact (100%) matches — the task is to find a similarly-worded clause in another agreement and inspect how it differs, not to find copies of the same document. Full source contracts are available to read for context. Bundled under `datasets/contracts/files/`; reproduce with `python3 scripts/prepare_contract_dataset.py`.
+Each file is a real, unedited excerpt (180–1,600 characters) of a clause from a commercial contract, in one of 18 substantive categories (liability caps, anti-assignment, exclusivity, termination, etc.). By default the app compares clauses across *different* source contracts only, at a 90%+ threshold excluding exact (100%) matches — the task is to find a similarly-worded clause in another agreement and inspect how it differs, not to find copies of the same document. The “Exclude 100% similarity matches” checkbox is optional and applies to both methods; uncheck it before running to include exact shingle-set matches. Your choice persists when loading another collection. Identical excerpt texts were already removed during dataset preparation. Full source contracts are available to read for context. Bundled under `datasets/contracts/files/`; reproduce with `python3 scripts/prepare_contract_dataset.py`.
 
 ### Real SMS message templates
 
@@ -114,11 +114,11 @@ Each script skips its download if the source archive is already present in `data
 
 ## Suggested classroom flow (about 8 minutes)
 
-1. Explore the eight lesson steps. Play or manually advance the shingling window and MinHash permutations.
+1. Explore the eight lesson steps. Play or manually advance the shingling window and MinHash row hashes.
 2. Change bands and rows in the probability chart. Explain why candidates still need exact verification.
-3. In Real file lab, use **120 real files · quick experiment** (Twenty Newsgroups) and download the ZIP to distribute actual public documents. Read two crossposted messages by clicking their filenames — the original archive paths are shown in the preview.
-4. Run both methods with k=5 and an 80% threshold. Inspect a matching pair. Compare quoted text and message headers — category labels are context, not proof of a near duplicate.
-5. Try 600 or 1,200 real files to observe the scaling tradeoff. Larger runs take seconds to tens of seconds depending on hardware and settings. The authored and generated examples remain available in the explicitly labeled Synthetic classroom examples group.
+3. In Real file lab, inspect the verified contract example: “a controlling interest” versus “an interest”. Read the original source contracts and download the ZIP with exact source offsets.
+4. Run both methods on 1,000 real clauses with k=5 and a 90% threshold. Check or uncheck “Exclude 100% similarity matches” before running; the results explain which setting was used.
+5. Try all 4,609 real clauses to observe scaling. Compare total time including signature construction, comparisons, recall and highlighted wording differences.
 6. Upload your own UTF-8 text files to replace the collection. PDF/Word parsing is not included; CSV is compared as plain text, not as structured rows.
 7. Export exact matching pairs as CSV. Run both methods to get empirical recall and missed matches. The visible table shows up to 150 pairs; the CSV export contains all matches.
 
@@ -128,7 +128,7 @@ For a real-world "does this actually save time" demonstration, load **5,556 real
 
 Both algorithms use the same normalized character-shingle sets and exact Jaccard verifier. Brute force enumerates each unordered pair once. LSH builds deterministic MinHash signatures using seed 42, partitions them into `b` bands of `r` entries, deduplicates candidates, and verifies them against original shingle strings.
 
-The vocabulary assigns collision-free row IDs within a run. Affine row hashes modulo a prime approximate random permutations. Small vocabularies reuse a bounded shared row-hash cache; larger ones use streaming computation. Bucket keys include complete band tuples, so Python dictionary hash collisions do not create false matches.
+The vocabulary assigns collision-free row IDs within a run. Affine row hashes modulo a prime approximate random permutations. Each hash column is computed once for the shared vocabulary, used by all documents, then discarded to bound memory. The teaching example assigns row IDs using its two-clause vocabulary; full lab runs use their own corpus vocabulary. Bucket keys include complete band tuples, so Python dictionary hash collisions do not create false matches.
 
 Each method's displayed total includes shared shingling time. LSH additionally includes row preparation, signatures, buckets and candidate construction. Verification timing includes pair iteration and lightweight progress callbacks. File transfer, JSON serialization, browser animation and polling are excluded. Brute force runs first, then LSH, in one worker. This is an educational single-run wall-clock comparison, not a controlled statistical benchmark — repeat runs for a stable picture.
 

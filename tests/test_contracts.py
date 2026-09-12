@@ -1,7 +1,7 @@
 import hashlib,json,sys,unittest,random
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
-from app import CONTRACT_DATA,collection_documents,run_job,shingles,jaccard,signatures,PRIME
+from app import CONTRACT_DATA,collection_documents,run_job,shingles,jaccard,signatures,PRIME,contract_lesson
 class ContractCases(unittest.TestCase):
  def test_every_excerpt_is_original_and_unique(self):
   source=json.loads((CONTRACT_DATA/'source.json').read_text());meta=json.loads((CONTRACT_DATA/'manifest.json').read_text());seen=set()
@@ -23,6 +23,20 @@ class ContractCases(unittest.TestCase):
    for pair in m['matches']:
     self.assertLess(pair['similarity'],1);self.assertNotEqual(files[pair['a']]['contract_id'],files[pair['b']]['contract_id'])
   self.assertEqual(j['result']['methods']['brute']['count'],4)
+ def test_exact_filter_is_optional_for_different_contracts(self):
+  docs=contract_lesson()['files'];docs=[docs[0],dict(docs[0],name='filter-test.txt',contract_id='different-source')]
+  for exclude in (False,True):
+   job={};run_job(job,dict(files=docs,threshold=.9,mode='both',exclude_exact=exclude,cross_contract=True))
+   self.assertEqual(job['status'],'complete')
+   self.assertEqual(job['result']['config']['exclude_exact'],exclude)
+   for method in job['result']['methods'].values():self.assertEqual(method['count'],0 if exclude else 1)
+ def test_lesson_values_match_the_original_clauses(self):
+  lesson=contract_lesson();sets=[shingles(f['text']) for f in lesson['files']]
+  self.assertEqual(lesson['intersection'],407);self.assertEqual(lesson['union'],444)
+  self.assertEqual(lesson['signatures'],signatures(sets,20,5));self.assertTrue(lesson['matching_bands'])
+  for h,winners in enumerate(lesson['hashes']):
+   for i,winner in enumerate(winners):
+    self.assertIn(winner['shingle'],sets[i]);self.assertEqual(winner['value'],lesson['signatures'][i][h])
  def test_shared_row_hashing_preserves_reference_signatures(self):
   sets=[shingles('this is a small contract clause'),shingles('this is another small contract clause')]
   ids={s:i+1 for i,s in enumerate(sorted(set().union(*sets)))};rng=random.Random(42);funcs=[(rng.randrange(1,PRIME),rng.randrange(PRIME))for _ in range(12)]

@@ -93,6 +93,24 @@ def candidates(sigs, bands, rows, report=lambda *a: None):
         report('Hashing bands into buckets', b+1, bands)
     return pairs
 
+def contract_lesson():
+    """Every teaching value is calculated from the two original CUAD excerpts."""
+    names=['contract_093__anti_assignment__43975_44612.txt','contract_174__anti_assignment__46567_47142.txt']
+    meta={f['name']:f for f in json.loads((CONTRACT_DATA/'manifest.json').read_text())['files']}
+    docs=[dict(meta[n],text=(CONTRACT_DATA/'files'/n).read_bytes().decode('utf-8')) for n in names]
+    sets=[shingles(d['text'],5) for d in docs]; union=sorted(sets[0]|sets[1]); shared=sorted(sets[0]&sets[1])
+    only=[sorted(sets[0]-sets[1]),sorted(sets[1]-sets[0])]
+    sig=signatures(sets,20,5)
+    rng=random.Random(42); hashes=[]
+    for h in range(4):
+        a,c=rng.randrange(1,PRIME),rng.randrange(PRIME)
+        winners=[min(((a*(i+1)+c)%PRIME,v) for i,v in enumerate(union) if v in doc) for doc in sets]
+        hashes.append([{'value':v,'shingle':word} for v,word in winners])
+    return dict(files=docs,k=5,similarity=jaccard(*sets),intersection=len(shared),union=len(union),
+                sizes=list(map(len,sets)),shared=shared,only=only,signatures=sig,hashes=hashes,
+                matrix=[dict(shingle=v,values=[int(v in doc) for doc in sets]) for v in shared[:4]+only[0][:3]+only[1][:3]],
+                matching_bands=[b+1 for b in range(20) if sig[0][b*5:b*5+5]==sig[1][b*5:b*5+5]])
+
 def sample_documents(n=240):
     """Original classroom files: revision families of campus project reports."""
     if n == 8:
@@ -119,7 +137,6 @@ def run_job(job, data):
     try:
         job['started']=time.perf_counter()
         files=data['files']; k=int(data.get('k',5)); b=int(data.get('bands',20)); r=int(data.get('rows',5)); threshold=float(data.get('threshold',.8)); mode=data.get('mode','both'); exclude_exact=bool(data.get('exclude_exact',False)); cross_contract=bool(data.get('cross_contract',False))
-        if cross_contract: exclude_exact=True
         report('Building exact shingle sets',0,len(files))
         t=time.perf_counter(); sets=[]
         for i,f in enumerate(files):
@@ -184,13 +201,8 @@ class Handler(BaseHTTPRequestHandler):
                 return self.send({'error':str(e)},status=400)
         if u.path.startswith('/api/job/'):
             job=JOBS.get(u.path.rsplit('/',1)[1]); return self.send(job or {'error':'Run not found'},status=200 if job else 404)
-        if u.path=='/api/contract-example':
-            names=['contract_093__anti_assignment__43975_44612.txt','contract_174__anti_assignment__46567_47142.txt']
-            manifest=json.loads((CONTRACT_DATA/'manifest.json').read_text())
-            by_name={f['name']:f for f in manifest['files']}
-            docs=[dict(by_name[n],text=(CONTRACT_DATA/'files'/n).read_bytes().decode('utf-8'))for n in names]
-            score=jaccard(shingles(docs[0]['text'],5),shingles(docs[1]['text'],5))
-            return self.send({'files':docs,'similarity':score,'k':5})
+        if u.path in ('/api/contract-example','/api/lesson'):
+            return self.send(contract_lesson())
         if u.path=='/api/contract':
             cid=q.get('id',[''])[0]
             if cid not in {f['contract_id']for f in json.loads((CONTRACT_DATA/'manifest.json').read_text())['files']}: return self.send({'error':'Contract not found'},status=404)
